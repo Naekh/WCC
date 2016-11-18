@@ -1,0 +1,231 @@
+header {
+  width: auto;
+  height: 500px;
+  margin: auto;
+  padding:0;
+  background-image: url("https://s18.postimg.org/sggb2868p/banniere_blanchev2.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  display : block;
+    }
+
+body {
+  font-family: helvetica, sans-serif;
+}
+
+div {
+  margin: 5px 0 0 0;
+}
+
+h1 {
+  margin: auto;
+  font-family: 'Ewert', cursive;
+  font-size: 2.8em;
+  letter-spacing: .1em;
+  color: white;
+  text-align: center;
+  line-height: 1em;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: rgb(17%, 28%, 47%);
+  font-size: 2.2em;
+  letter-spacing: .08em;
+}
+h3 {
+  margin-top: 0;
+  text-align: center;
+  color: white;
+  font-family: 'Ewert', cursive;
+  font-size: 2em;
+}
+p {
+  text-align: justify;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+ list-style: none;
+ text-align: center;
+ margin: auto;
+ }
+
+li {
+  display: inline-block;
+  padding: 2px 20px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.6em;
+  line-height: .9em;
+  letter-spacing: 0.05em;
+  color: white;
+  text-align: center;
+}
+
+li:hover{font-size: 1.8em}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.perf1 {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  background-color: rgb(17%, 28%, 47%);
+  min-width: 500px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+.perf1:hover{
+background-image: url("https://s4.postimg.org/m8mzl15h9/Homme2.png");
+}
+.name {
+font-size: 2em;
+color: white;
+margin-bottom: 1em;
+}
+.perf2 {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  background: rgb(17%, 28%, 47%);
+  min-width: 500px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 12px;
+}
+.perf2:hover{
+background-image: url("https://s13.postimg.org/8efy384nb/Femme1.jpg");
+}
+
+.perf3 {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  background: rgb(17%, 28%, 47%);
+  min-width: 500px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 12px;
+  margin-bottom: 80px;
+}
+.perf3:hover{
+background-image: url("https://s11.postimg.org/9twv55kkj/Homme1.png");
+}
+.barre {
+  background-color: rgb(82%, 26%, 24%);
+}
+.intro {
+  margin: 10px 5% ;
+  color: rgb(17%, 28%, 47%);
+}
+.description {
+  color:white;
+  position: absolute;
+  bottom: 0px
+  margin: auto;
+  width: 62%;
+  min-width: 300px;
+  font-size: .9em;
+  padding-top: 20px;
+ }
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.worldtour {
+  width: 40%;
+  min-height: 400px;
+  height: auto;
+  border-right: 2px rgb(17%, 28%, 47%) dashed;
+  margin-bottom: 80px;
+}
+
+.WT-text {
+text-align: center;
+font-size: 1.2em;
+color: rgb(17%, 28%, 47%);
+}
+.social {
+  width: 40%;
+  min-height: 400px;
+  height: auto;
+  margin-bottom: 80px;
+}
+.vector {
+  height: 70px;
+  width: 70px;
+  margin: 10px 20px;
+  text-align: center;
+}
+.newsletter {
+  background-color: rgb(82%, 26%, 24%);;
+  height: 300px;
+  text-align: center;
+  margin:auto;
+  padding-top: 40px;
+}
+.email {
+  font-size: 1.2em;
+  color: grey;
+  border-style: none;
+  text-align: center;
+  background-color: rgba(255 255 255 0);
+}
+.send {
+  font-size: 1em;
+  margin-top: 20px;
+  background: white;
+  border: none;
+  border-radius: 30px;
+}
+
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin:auto;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 0.9em;
+    line-height: 24px;
+  }
+  li {
+    display: block;
+    margin-bottom: 1em;
+    font-size: 2em;
+  }
+  .name {
+    font-size: 2em;
+    text-align: left;
+  }
+  .description {
+  font-size: 1em;
+  width: 80%;
+  line-height: 1.2em;
+  left: auto;
+  }
+  .WT-text {
+  text-align: center;
+  font-size: .7em;
+  color: rgb(17%, 28%, 47%);
+  } 
+  }
