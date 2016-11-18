@@ -9,3 +9,6 @@ Projet Candidature NOV2016
 * Tous les contenus du site sont rédigés en anglais
 * Le code source du site est disponible sur jsfiddle
 * Le site intègre un composant JQuery
+
+# JsFiddle
+https://jsfiddle.net/yodo/1j306ypa/
